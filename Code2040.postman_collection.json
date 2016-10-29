@@ -1,0 +1,46 @@
+{
+	"id": "eac4519f-77b5-bae7-8eee-3b5751c9b789",
+	"name": "Code2040",
+	"description": "",
+	"order": [
+		"189e742f-b2c7-d500-4798-c124000b8510"
+	],
+	"folders": [],
+	"timestamp": 1477691407607,
+	"owner": "1185970",
+	"public": false,
+	"requests": [
+		{
+			"id": "189e742f-b2c7-d500-4798-c124000b8510",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://challenge.code2040.org/api/register",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "token",
+					"value": "815a54e8b045a25b63898145b6d35d46",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "github",
+					"value": "https://github.com/alikeju/Code2040.git",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1477693325625,
+			"name": "http://challenge.code2040.org/api/register",
+			"description": "",
+			"collectionId": "eac4519f-77b5-bae7-8eee-3b5751c9b789",
+			"responses": []
+		}
+	]
+}
